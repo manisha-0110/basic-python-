@@ -2,7 +2,7 @@ legs=int(input("Enter num of legs: "))
 heads=int(input("Enter total heads: "))
 flag=False
 for cows in range (0,heads+1):
-    hens=heads=cows
+    hens=heads-cows
     cal_legs =cows*4 + hens*2
     if cal_legs ==legs:
         flag=True
